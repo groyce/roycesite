@@ -1,0 +1,266 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-image:url(images/background.jpg);
+	background-repeat:repeat-x;
+	background-color:#000000;
+	text-align:center;
+	margin-top:10px;
+	margin-bottom:10px;
+	vertical-align:middle;
+	}
+
+td {
+	font-family: Arial, Helvetica, sans-serif;
+	}
+
+th {
+	font-family: Arial, Helvetica, sans-serif;
+	}
+	
+p {
+	margin:0px;
+
+}
+
+h1 {
+	color:#000000;
+	font-size:16px;
+	margin-bottom:20px;
+
+}
+
+#wrapper {
+	width:756px;
+	margin:auto;
+	}
+
+
+/* main layout */
+
+#line_top {
+	background-image:url(images/top_rounds.png);
+	background-repeat:no-repeat;
+	height:10px;
+	font-size:0px;
+	clear:both;
+	}
+
+#line_midle {
+	background-image:url(images/main_bg.png);
+	background-repeat:repeat-y;
+	background-color:#FFFFFF;
+	padding:0px;
+	padding-left:10px;
+	padding-right:10px;	
+	text-align:left;
+	font-size:14px;
+	line-height:16px;
+	width:736px;
+	float:left;
+	}
+	
+#col_left {
+	width:130px;
+	float:left;
+	display:inline;
+	height:100%;
+}
+		
+#col_main {
+	width:596px;
+	float:left;
+	margin-left:10px;
+	background-color:#FFFFFF;
+	line-height:17px;
+	font-size:14px;
+	}
+	
+#line_bottom {
+	background-image:url(images/base_rounds.png);
+	background-repeat:no-repeat;
+	height:10px;
+	font-size:0px;
+	clear:both;
+	}
+	
+#col_main img {
+	padding:10px;
+	border:1px solid #EEEEEE;
+}
+
+/* end of main layout   */
+
+
+/* top menu */
+
+.top_menu {
+	background-image:url(images/menu_bar_bg.png);
+	margin-bottom:10px;
+	font-size:24px;
+	line-height:38px;
+	}
+
+.top_menu a:link, .top_menu a:visited {
+	color:#FFFFFF;
+	font-size:14px;
+	text-decoration:none;
+	line-height:38px;
+	height:87px;
+	width:20px;
+	padding:10px;
+	vertical-align:bottom;
+}
+
+.top_menu a:hover {
+	color:#FFCC00;
+	font-size:14px;
+	text-decoration:none;
+	background-image:url(images/menu_bar_rollover.png);
+	height:37px;
+	padding:10px;
+	padding-top:11px;
+	padding-bottom:10px;
+
+}
+
+.menu_links_spacer {
+	width:30px;
+}
+
+/* end of top menu */
+
+
+
+
+/* left menu */
+
+.left_menu_title {
+	display:block;
+	width:108px;
+	height:19px;
+	border-left:1px solid #000000;
+	border-right:1px solid #000000;
+	border-bottom:1px solid #000000;
+	line-height:14px;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:4px;
+	color:#FFFFFF;
+	text-decoration:none;
+	font-size:12px;
+	background-image:url(images/left_menu_rollover.png);
+	}
+	
+.left_menu {	
+	line-height:0px;
+	border-top:1px solid #000000;
+	width:120px;	
+	}
+	
+.left_menu a:link, .left_menu a:visited {
+	display:block;
+	width:108px;
+	height:19px;
+	border-left:1px solid #000000;
+	border-right:1px solid #000000;
+	border-bottom:1px solid #000000;
+	line-height:14px;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:4px;
+	color:#000000;
+	text-decoration:none;
+	font-size:12px;
+	}
+	
+.left_menu a:hover {
+	background-color:#000000;
+	color:#FFCC00;
+	border-left:1px solid #000000;
+	border-right:1px solid #000000;
+	border-bottom:1px solid #000000;
+	background-image:url(images/left_menu_rollover.png);
+	}	
+
+/* end of left menu */
+
+
+
+/* form style */
+
+form {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin:0px;
+	}
+
+input {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	border:1px solid #333333;
+}
+
+textarea {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	border:1px solid #333333;
+}
+
+select {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+label {
+	font-size:12px;
+}
+
+form .submit_button {
+	border:none;
+	margin-top:10px;
+	margin-bottom:0px;
+
+}
+
+/* ^ form style */
+
+/* products page */
+
+#col_main .product_buttons ,#col_main .product_buttons a:link, #col_main .product_buttons a:visited{
+	margin-top:10px;
+	margin-bottom:20px;
+	clear:both;
+	padding:0px;
+	background-color:#FFFFFF;
+}
+
+#col_main .button_order {
+	padding:0px;
+	border:none;
+	margin-right:10px;	
+}
+
+#col_main .button_details {
+	padding:0px;
+	border:none;	
+}
+
+.product_image {
+	margin-right:10px;
+}
+
+/* ^ products page */
+
+#col_main a:link, #col_main a:visited {
+	color:#003399;
+	text-decoration:none;
+	background-color:#ffffff;
+	padding:0px;
+	padding-left:4px;
+	padding-right:4px;
+}
+
+#col_main a:hover {
+	color:#FFFFFF;
+	background-color:#666666;
+}
